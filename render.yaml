@@ -1,0 +1,8 @@
+services:
+  - type: static
+    name: renuka-ankamreddy-portfolio
+    env: node
+    nodeVersion: 24.14.1
+    branch: main
+    buildCommand: npm ci && npm run build
+    publishPath: build
